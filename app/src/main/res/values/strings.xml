@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">todolist</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="note_text">Введите текст заметки</string>
+    <string name="note_details_title">Заметка</string>
+    <string name="save">Сохранить</string>
+    <string name="completed">Выполнение</string>
+
+    <string name="keycloak_verification_client_id">verification</string>
+    <string name="keycloak_verification_grant_type">password</string>
+    <string name="keycloak_verification_scope">openid</string>
+
+    <string name="keycloak_todolist_client_id">todolist</string>
+    <string name="keycloak_todolist_client_secret">0494d321-73fc-4a6a-ada6-8ef1a62c8e8b</string>
+    <string name="keycloak_todolist_grant_type">client_credentials</string>
+    <string name="keycloak_todolist_scope">openid</string>
+
+    <string name="database_name">todolist</string>
+
+</resources>

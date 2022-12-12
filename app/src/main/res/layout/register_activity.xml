@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#006600"
+        android:textSize="36sp"
+        android:text="TODO List" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/registerEditTextUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Username"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerEditTextFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Fisrt name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerEditTextLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Last name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/registerEditTextEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="mail"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/registerEditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/registerEditTextConfirmPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="confirm password"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/registerButtonRegisterActivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="register" />
+    </LinearLayout>
+
+
+</LinearLayout>
